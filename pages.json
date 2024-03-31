@@ -1,0 +1,136 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}, {
+			"path": "pages/social/social",
+			"style": {
+				"navigationBarTitleText": "友邻社交",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/serve/serve",
+			"style": {
+				"navigationBarTitleText": "社区服务",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false
+			}
+
+		}
+
+		, {
+			"path": "pages/socialDetail/socialDetail",
+			"style": {
+				"navigationBarTitleText": "帖子详情",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	    ,{
+            "path" : "pages/notice/notice",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "社区公告",
+                "enablePullDownRefresh": false,
+								"navigationBarBackgroundColor": "#fff"
+            }
+            
+        }
+        ,{
+            "path" : "pages/noticeDetail/noticeDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "公告详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/familyMember/familyMember",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "家庭成员管理",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/addFamily/addFamily",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新增家庭成员",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/familyDetail/familyDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "家庭成员详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar": {
+		"selectedColor": "#1296db",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "./static/images/home.png",
+				"selectedIconPath": "./static/images/home-active.png",
+				"text": "首页"
+			}, {
+				"pagePath": "pages/social/social",
+				"iconPath": "./static/images/socia.png",
+				"selectedIconPath": "./static/images/social-active.png",
+				"text": "友邻社交"
+			},
+
+			{
+				"pagePath": "pages/serve/serve",
+				"iconPath": "./static/images/serve.png",
+				"selectedIconPath": "./static/images/serve-active.png",
+				"text": "社区服务"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"iconPath": "./static/images/mine.png",
+				"selectedIconPath": "./static/images/mine-active.png",
+				"text": "数据分析"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"usingComponents": {
+			"van-notice-bar": "/wxcomponents/vant/notice-bar/index",
+			"van-icon": "/wxcomponents/vant/icon/index",
+			"van-tab": "/wxcomponents/vant/tab/index",
+			"van-tabs": "/wxcomponents/vant/tabs/index",
+			"van-radio": "/wxcomponents/vant/radio/index",
+			"van-radio-group": "/wxcomponents/vant/radio-group/index"
+		}
+	},
+	"uniIdRouter": {}
+}
